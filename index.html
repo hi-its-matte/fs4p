@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FS4P - Free Software For Piux</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #4da6ff;
+            --border-color: #333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .banner {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px 0;
+            color: #fff;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 0.95em;
+        }
+
+        .disclaimer-box {
+            background-color: #2a2015;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.9em;
+        }
+
+        .disclaimer-box strong {
+            color: #ffb74d;
+        }
+
+        section {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: var(--accent-color);
+            font-size: 1.2em;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        pre {
+            background: #000;
+            padding: 12px;
+            border-radius: 4px;
+            overflow-x: auto;
+            border: 1px solid #333;
+            font-family: monospace;
+            color: #76e0a3;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85em;
+            color: #666;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Inserisci il tuo banner qui se presente -->
+        <img src="/r/fs4p_banner.png" alt="FS4P Banner" class="banner" onerror="this.style.display='none'">
+        <h1>FS4P</h1>
+        <div class="subtitle">Free Software For Piux Repository</div>
+    </header>
+
+    <div class="disclaimer-box">
+        <strong>⚠️ Disclaimer:</strong> FS4P is an unofficial, community-driven package repository. It is developed independently and is <strong>not affiliated with or endorsed by</strong> the official <a href="https://github.com/projectpiux/" target="_blank">Piux OS project</a>.
+    </div>
+
+    <section>
+        <h2>🚀 Project Overview</h2>
+        <p><strong>FS4P</strong> is an open-source, community-maintained repository providing software, applications, and resources for the Piux Operating System under the <strong>GPLv3 License</strong>.</p>
+        <ul>
+            <li><strong>Community-Driven:</strong> Maintained independently for and by the community.</li>
+            <li><strong>High Availability:</strong> Powered by multiple fallback mirrors.</li>
+            <li><strong>Open Source:</strong> Completely free to modify and distribute.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>⚙️ Configuration & Usage</h2>
+        <p>Command-line client integration and repository configuration options:</p>
+        <pre># Update package index
+fs4p update
+
+# Install a package from FS4P
+fs4p install &lt;package_name&gt;</pre>
+    </section>
+
+    <section>
+        <h2>🌐 Links & Resources</h2>
+        <ul>
+            <li><strong>Primary Mirror:</strong> <a href="#">fs4p.ftp.sh</a></li>
+            <li><strong>Secondary Mirror:</strong> <a href="#">fs4p.duckdns.org</a></li>
+            <li><strong>Source Code & Contributing:</strong> <a href="https://github.com/projectpiux-community/fs4p" target="_blank">GitHub Repository</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        FS4P Project &bull; Released under GNU General Public License v3.0
+    </footer>
+
+</body>
+</html>
