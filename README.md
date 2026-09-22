@@ -1,5 +1,7 @@
 # FS4P (Free Software For Piux)
 
+![FS4P Banner](/r/fs4p_banner.png)
+
 **FS4P** (*Free Software For Piux*) is a community-driven package repository and package management tool designed to provide software, resources, and applications for the **Piux** operating system.
 
 ---
@@ -21,4 +23,23 @@ All product and project names, logos, and brands are property of their respectiv
 ---
 
 ## ⚙️ Usage and Configuration
+
 Coming Soon
+
+---
+
+## 🛠️ Contributing
+
+Contributions are welcome! If you want to add new software or improve the repository:
+
+1. Fork this repository.
+2. Create a new feature branch (`git checkout -b feature/package-name`).
+3. Commit your changes (`git commit -m 'Add new package'`).
+4. Push to your branch (`git push origin feature/package-name`).
+5. Open a **Pull Request**.
+
+---
+
+## 📜 License
+
+This project is licensed under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
